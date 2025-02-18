@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    text-align: center;
+
+}
+
+.texto{
+    text-align: justify;
+}
+
+#titulo{
+    text-align: center;
+    color: blue;
+    text-shadow: 0cqmax;
+}
+
+h2:hover{
+    color: yellow;
+}
