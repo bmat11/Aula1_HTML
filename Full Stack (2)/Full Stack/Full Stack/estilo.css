@@ -1,0 +1,83 @@
+table{
+    text-align: center;
+    
+}
+
+body{
+    background-color: lightgray;
+}
+/* 
+h1{
+border-style: solid;
+border-color: black;
+
+} */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-style: solid;
+    border-color: darkblue  ;
+    text-align: center;
+    background-color: bisque;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    border: 2px solid lightblue; 
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+            /* width: 80%;  */
+            /* margin: 20px auto;  */
+    background-color: lightblue;
+    margin: auto; 
+}
+
+.img{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.table-container {
+    width: 500px; /* Define a largura */
+    margin: auto; /* Centraliza na página */
+    border-collapse: collapse; /* Junta as bordas internas */
+    border: 2px dotted red; /* Borda externa pontilhada */
+    text-align: center; /* Centraliza o texto dentro da tabela */
+}
+
+.table-container th, .table-container td {
+    border: 1px solid red; /* Borda única entre as células */
+    padding: 10px;
+}
+
+.consulta {
+    margin-top: 60px; /* Aumenta a distância do topo */
+    background-color: yellow; /* Mantém o fundo amarelo */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 10px; /* Adiciona espaço interno */
+    width: 500px; /* Ajusta a largura */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: bisque;
+    margin-top: 20px;
+}
